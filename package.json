@@ -1,0 +1,26 @@
+{
+  "name": "node-swapi",
+  "version": "0.0.1",
+  "description": "Node wrapper around SWAPI",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apetrosian/node_swapi.git"
+  },
+  "keywords": [
+    "swapi",
+    "node",
+    "js"
+  ],
+  "author": "Artem Petrosian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apetrosian/node_swapi/issues"
+  },
+  "homepage": "https://github.com/apetrosian/node_swapi#readme"
+}
