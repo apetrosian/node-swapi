@@ -1,4 +1,8 @@
-# node-swapi 
+# node-swapi
+
+[![npm version](https://img.shields.io/npm/v/node-swapi.svg)](https://www.npmjs.org/package/node-swapi)
+
+
 
 Node wrapper around SWAPI - http://swapi.co/
 
