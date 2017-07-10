@@ -29,10 +29,19 @@ Request data from the server
 
 // get list of persons
 SWAPI.person.list()
+  .then((list) => {
+    list.map(...)
+  })
+  .catch(...)
 
 // get person with id 1
 SWAPI.person.get(1)
+  .then(...)
+  .catch(...)
 
 // search for Luke Skywalker
 SWAPI.person.search('Luke')
+  .then(...)
+  .catch(...)
+
 ```

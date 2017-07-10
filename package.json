@@ -4,7 +4,7 @@
   "description": "Node wrapper around SWAPI",
   "main": "lib/index.js",
   "directories": {
-    "lib": "lib"
+    "lib": "index.js"
   },
   "scripts": {
   },
