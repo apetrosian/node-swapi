@@ -1,13 +1,12 @@
 {
   "name": "node-swapi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node wrapper around SWAPI",
   "main": "lib/index.js",
   "directories": {
     "lib": "index.js"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/apetrosian/node_swapi.git"
