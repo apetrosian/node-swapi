@@ -27,21 +27,33 @@ Request data from the server
 ```javascript
 
 
-// get list of persons
-SWAPI.person.list()
-  .then((list) => {
-    list.map(...)
+// get list of people 
+SWAPI.people.list()
+  .then((data) => {
+    data.results.map((item) => {
+      console.log(item.name);
+    });
   })
-  .catch(...)
+  .catch((error) => {
+    console.log(error);
+  })
 
 // get person with id 1
-SWAPI.person.get(1)
-  .then(...)
-  .catch(...)
+SWAPI.people.get(1)
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((error) => {
+    console.log(error);
+  })
 
 // search for Luke Skywalker
-SWAPI.person.search('Luke')
-  .then(...)
-  .catch(...)
+SWAPI.people.search('Luke')
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((error) => {
+    console.log(error);
+  })
 
 ```
