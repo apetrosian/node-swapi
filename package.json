@@ -1,6 +1,6 @@
 {
   "name": "node-swapi",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Node wrapper around SWAPI",
   "main": "lib/index.js",
   "directories": {
